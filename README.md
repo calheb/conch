@@ -1,6 +1,6 @@
 <img align="left" style="width:260px" src="https://github.com/user-attachments/assets/cb9f5408-ce5e-4fae-a604-4a7e2e20e647" width="288px">
 
-**conch**
+**conch** ![build](https://github.com/calheb/conch/actions/workflows/build.yml/badge.svg)
 
 A simple, extensible, and customizable shell.
 
