@@ -6,7 +6,7 @@
 
 A simple, extensible, and customizable shell.
 
-conch is a [UNIX](https://pages.github.com/) [shell](https://pages.github.com/) written in [K&R](https://pages.github.com/) style [ANSI C](https://pages.github.com/), designed from the ground up to be [POSIX](https://pages.github.com/) compatible and extensible. It's early in development;
+conch is a [UNIX](https://en.wikipedia.org/wiki/Unix) [shell](https://en.wikipedia.org/wiki/Unix_shell) written in [K&R](https://en.wikipedia.org/wiki/The_C_Programming_Language) style [C89](https://en.wikipedia.org/wiki/ANSI_C), designed from the ground up to be [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible and extensible. It's early in development;
 the goal is to build something fast, portable, and shaped by those who use it.
 
 > [!WARNING]
@@ -26,7 +26,7 @@ the goal is to build something fast, portable, and shaped by those who use it.
 
 ## Building & Running
 > [!NOTE]
-> Requires a C89-compatible compiler ([gcc](https://pages.github.com/)  or [clang](https://pages.github.com/)).
+> Requires a C89-compatible compiler ([gcc](https://gcc.gnu.org/) or [clang](https://clang.llvm.org/)).
 
 ```sh
 git clone https://github.com/calheb/conch.git && cd conch
@@ -43,7 +43,7 @@ make
 - POSIX sh compatibility 
 
 ## Contributing
-Contributions are very much welcome in the form of [issues](https://pages.github.com/), [discussions](https://pages.github.com/), and [pull requests](https://pages.github.com/).
+Contributions are very much welcome in the form of [issues](https://github.com/calheb/conch/issues), [discussions](https://github.com/calheb/conch/discussions), and [pull requests](https://github.com/calheb/conch/pulls).
 
 ## License 
-conch is licensed under the [MIT](https://pages.github.com/) license.
+conch is licensed under the [MIT](LICENSE) license.
