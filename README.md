@@ -9,11 +9,16 @@ A simple, extensible, and customizable shell.
 conch is a UNIX shell written in K&R style C89, designed from the ground up to be POSIX compliant. It's early in development;
 the goal is to build something fast, portable, and shaped by those who use it.
 
+> [!WARNING]
+> conch has limited functionality and is likely riddled with bugs.
+
+
 ---
 
 <br>
 <br>
-<br>
+
+> What I cannot create, I do not understand. - Richard Feynman
 
 ## Features
 
@@ -34,12 +39,12 @@ make
 ```
 
 ## Roadmap
-
+- Command history
 - Pipes and I/O redirection
 - Job control and signal handling
-- Command history
 - Tab completion
 - Plugin/extension API
 - Full POSIX sh compliance
 
 ## Contributing
+Contributions are very much welcome in the form of issues, discussions, and pull requests.
