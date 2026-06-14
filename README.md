@@ -26,7 +26,7 @@ the goal is to build something fast, portable, and shaped by those who use it.
 
 ## Building & Running
 > [!NOTE]
-> Requires a C89-compatible compiler ([gcc](https://gcc.gnu.org/) or [clang](https://clang.llvm.org/)).
+> Requires a C compiler ([gcc](https://gcc.gnu.org/) or [clang](https://clang.llvm.org/)).
 
 ```sh
 git clone https://github.com/calheb/conch.git && cd conch
