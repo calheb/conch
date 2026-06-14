@@ -34,6 +34,13 @@ make
 ./conch
 ```
 
+### Nix
+If you have [Nix](https://nixos.org/) with flakes enabled, you can run conch directly without cloning:
+
+```sh
+nix run github:calheb/conch --no-write-lock-file
+```
+
 ## Roadmap
 - Command history
 - Pipes and I/O redirection
