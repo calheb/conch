@@ -1,3 +1,5 @@
 *.o
-shell
+conch
+compile_commands.json
+.#*
 
