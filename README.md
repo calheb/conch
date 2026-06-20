@@ -10,7 +10,7 @@ conch is a [UNIX](https://en.wikipedia.org/wiki/Unix) [shell](https://en.wikiped
 the goal is to build something fast, portable, and shaped by those who use it.
 
 > [!WARNING]
-> conch has extremely limited functionality (main file is currently 99 lines 😅).
+> conch has extremely limited functionality.
 
 ---
 
