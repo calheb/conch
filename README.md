@@ -17,7 +17,7 @@ the goal is to build something fast, portable, and shaped by those who use it.
 
 ## Features
 - Interactive prompt showing current working directory
-- `cd`, `exit`, `history `and `showpid` builtins
+- `cd`, `exit`, `history` and `showpid` builtins
 - External command execution
 - Tracks recent background process IDs
 
