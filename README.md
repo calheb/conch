@@ -9,24 +9,22 @@ A simple, extensible, and customizable shell.
 conch is a [UNIX](https://en.wikipedia.org/wiki/Unix) [shell](https://en.wikipedia.org/wiki/Unix_shell) written in [K&R](https://en.wikipedia.org/wiki/The_C_Programming_Language) style [C89](https://en.wikipedia.org/wiki/ANSI_C), designed from the ground up to be [POSIX](https://en.wikipedia.org/wiki/POSIX) compatible and extensible. It's early in development;
 the goal is to build something fast, portable, and shaped by those who use it.
 
-> [!WARNING]
-> conch has extremely limited functionality.
-
 ---
 
 <br>
-
-> What I cannot create, I do not understand. - Richard Feynman
+<br>
+<br>
 
 ## Features
 - Interactive prompt showing current working directory
-- `cd`, `exit`, and `showpid` builtins
+- `cd`, `exit`, `history `and `showpid` builtins
 - External command execution
 - Tracks recent background process IDs
 
 ## Building & Running
 > [!NOTE]
-> Requires a C compiler ([gcc](https://gcc.gnu.org/) or [clang](https://clang.llvm.org/)).
+> The only build requirement is a C compiler: ([gcc](https://gcc.gnu.org/) or [clang](https://clang.llvm.org/)). <br>
+> Example shown below with [make](https://www.gnu.org/software/make/manual/make.html).
 
 ```sh
 git clone https://github.com/calheb/conch.git && cd conch
@@ -47,10 +45,10 @@ nix run github:calheb/conch --no-write-lock-file
 - Job control and signal handling
 - Tab completion
 - Plugin/extension API
-- POSIX sh compatibility 
+- POSIX sh compatibility
 
 ## Contributing
-Contributions are very much welcome in the form of [issues](https://github.com/calheb/conch/issues), [discussions](https://github.com/calheb/conch/discussions), and [pull requests](https://github.com/calheb/conch/pulls).
+Contributions are welcome in the form of [issues](https://github.com/calheb/conch/issues), [discussions](https://github.com/calheb/conch/discussions), and [pull requests](https://github.com/calheb/conch/pulls).
 
 ## License 
-conch is licensed under the [MIT](LICENSE) license.
+conch is licensed under the [ISC](LICENSE) license.
